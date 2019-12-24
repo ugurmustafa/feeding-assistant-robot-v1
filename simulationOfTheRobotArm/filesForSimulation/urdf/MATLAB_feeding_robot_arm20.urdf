@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="MATLAB_feeding_robot_arm20">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.194934821629088 -0.0135833956377986 0.00709237953021339"
+        rpy="0 0 0" />
+      <mass
+        value="1.2996491336163" />
+      <inertia
+        ixx="0.00513241757298595"
+        ixy="0.000909915765740639"
+        ixz="-9.70075439247577E-06"
+        iyy="0.0181269922660767"
+        iyz="6.78255105158956E-07"
+        izz="0.0231749776351054" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.12156862745098 0.129411764705882 0.52156862745098 0.35" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="first_link">
+    <inertial>
+      <origin
+        xyz="-5.49706873415783E-08 2.4712752783821E-09 0.0262538101159052"
+        rpy="0 0 0" />
+      <mass
+        value="0.159544218113454" />
+      <inertia
+        ixx="9.21738994783716E-05"
+        ixy="4.43464740263406E-09"
+        ixz="-7.30311926145205E-13"
+        iyy="0.000113290154480954"
+        iyz="-3.08656348752115E-12"
+        izz="0.000174389664929604" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/first_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/first_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="first_joint"
+    type="revolute">
+    <origin
+      xyz="0.00099758 -6.9514E-05 0.043297"
+      rpy="0 0 1.5012" />
+    <parent
+      link="base_link" />
+    <child
+      link="first_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.618"
+      upper="2.618"
+      effort="1"
+      velocity="4.8" />
+  </joint>
+  <link
+    name="second_link">
+    <inertial>
+      <origin
+        xyz="-3.90671112193231E-07 0.0857335900702113 0.000293778750700397"
+        rpy="0 0 0" />
+      <mass
+        value="0.08126049056897" />
+      <inertia
+        ixx="5.30107210326389E-05"
+        ixy="-2.36532041707882E-10"
+        ixz="2.21591417779484E-09"
+        iyy="1.32852672838446E-05"
+        iyz="1.77521297582527E-07"
+        izz="5.00305762180477E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/second_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/second_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="second_joint"
+    type="revolute">
+    <origin
+      xyz="0 0 0.055203"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="first_link" />
+    <child
+      link="second_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-2.618"
+      upper="2.618"
+      effort="1"
+      velocity="4.8" />
+  </joint>
+  <link
+    name="third_link">
+    <inertial>
+      <origin
+        xyz="0.101673492894517 4.64579096498552E-07 0.000605967892427892"
+        rpy="0 0 0" />
+      <mass
+        value="0.0702571061766664" />
+      <inertia
+        ixx="8.92340768563915E-06"
+        ixy="1.88602114898204E-10"
+        ixz="1.92580071515587E-07"
+        iyy="5.8728277457127E-05"
+        iyz="-2.22078239798901E-09"
+        izz="5.97549761871198E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/third_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/third_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="third_joint"
+    type="revolute">
+    <origin
+      xyz="0 0.1472 0"
+      rpy="0 0 0" />
+    <parent
+      link="second_link" />
+    <child
+      link="third_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.168"
+      upper="2.618"
+      effort="1"
+      velocity="4.8" />
+  </joint>
+  <link
+    name="fourth_link">
+    <inertial>
+      <origin
+        xyz="0.0324387698007119 -0.00144386213516617 0.00282945586620664"
+        rpy="0 0 0" />
+      <mass
+        value="0.0108011745182262" />
+      <inertia
+        ixx="2.74708574332677E-06"
+        ixy="1.59942953762279E-06"
+        ixz="-5.70280999936005E-08"
+        iyy="2.28051195237262E-05"
+        iyz="2.7777092394106E-09"
+        izz="2.10473200080076E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/fourth_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.619607843137255 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MATLAB_feeding_robot_arm20/meshes/fourth_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fourth_joint"
+    type="revolute">
+    <origin
+      xyz="0.1472 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="third_link" />
+    <child
+      link="fourth_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.618"
+      upper="2.618"
+      effort="1"
+      velocity="4.8" />
+  </joint>
+</robot>
