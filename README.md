@@ -3,4 +3,6 @@ This repository contains all related documents about Feeding Assistant Robot pro
 
 To see the files related with the simulation of the robot arm go to the file [simulationOfTheRobotArm](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/simulationOfTheRobotArm).
 
+To run simulation files go to  the directory [simulationOfTheRobotArm/filesForSimulation/urdf/matlabFiles/](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/simulationOfTheRobotArm/filesForSimulation/urdf/matlabFiles)
+
 To see the files realated with the mout tacking algorithm go to the file [mouthTrackingAlgorithm](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/mouthTrackingAlgorithm)
