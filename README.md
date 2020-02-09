@@ -1,5 +1,8 @@
 # Feeding Assistant Robot
-This repository contains all related documents and files about Feeding Assistant Robot project. This project is being held for the Senior Design Project course at Mechatronics Engineering Department at Biomechatronics Laboratory, Yildiz Technical University, Istanbul, Turkey. 
+This repository contains all related documents and files about Feeding Assistant Robot project. This project is being held for the Senior Design Project course at Mechatronics Engineering Department at Yildiz Technical University, Istanbul, Turkey.
+
+Currently, our team consists of four senior Mechatronics Engineering students: Mustafa UGUR, Oguzhan YARDIMCI, Cemil YILMAZ and Haluk BASI.
+
 
 ![alt text](https://github.com/Ugurmustafa97/FeedingAssistantRobot/blob/master/simulationOfTheRobotArm/homeToThirdBowl.PNG)
 
