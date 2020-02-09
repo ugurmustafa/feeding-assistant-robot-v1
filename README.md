@@ -1,5 +1,5 @@
-# FeedingAssistantRobot
-This repository contains all related documents about Feeding Assistant Robot project. This project is being held for the Senior Design Project course in Biomechatronic Laboratory at Yildiz Technical University, Istanbul, Turkey.
+# Feeding Assistant Robot
+This repository contains all related documents and files about Feeding Assistant Robot project. This project is being held for the Senior Design Project course at Mechatronics Engineering Department at Biomechatronics Laboratory, Yildiz Technical University, Istanbul, Turkey. 
 
 ![alt text](https://github.com/Ugurmustafa97/FeedingAssistantRobot/blob/master/simulationOfTheRobotArm/homeToThirdBowl.PNG)
 
@@ -11,6 +11,10 @@ To run simulation files for the dynamic analyses of the robot arm go to  the dir
 
 To see the files realated with the mout tacking algorithm go to the file [mouthTrackingAlgorithm](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/mouthTrackingAlgorithm)
 
-To see the whole CAD files go to the [CADFiles](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/mouthTrackingAlgorithm) and to see the assembly file open the file [MATLAB_feeding_robot_arm.SLDASM](babbab)
+To see the whole CAD files go to the [CADFiles](https://github.com/Ugurmustafa97/FeedingAssistantRobot/tree/master/CADFiles) and to see the assembly file open the file [MATLAB_feeding_robot_arm.SLDASM](https://github.com/Ugurmustafa97/FeedingAssistantRobot/blob/master/CADFiles/MATLAB_feeding_robot_arm.SLDASM)
 
-And, to see our team final report for the fall term look the [finalReport]() 
+And, to see our team final report for the fall term look the [finalReport.pdf](https://github.com/Ugurmustafa97/FeedingAssistantRobot/blob/master/finalReport.pdf) 
+
+Please do not hesitate to contact with our team to ask anything related with the project. Please use Issues section in project's GitHub repo.
+
+This project is supported by National Scientific and Technological Research Council of Turkey (TUBITAK) as 2209B Undergraduate Research Project Grant. 
